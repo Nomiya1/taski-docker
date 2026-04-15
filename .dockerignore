@@ -1,0 +1,31 @@
+# 🔐 Секреты — не класть в образ!
+.env
+.env.local
+.env.*.local
+
+# 🗂️ Git и служебные файлы
+.git/
+.gitignore
+.dockerignore
+
+# 🐍 Python-мусор
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# 🗄️ Локальные данные и БД
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# 📝 Документация (не нужна в образе)
+*.md
+docs/
+README.md
+
+# 🌐 Frontend зависимости (если не собираются в образе)
+frontend/node_modules/
